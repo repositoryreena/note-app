@@ -39,6 +39,7 @@ background-color: rgba(255, 255, 255, 10%);
 textarea{
     border: none;
     color: rgb(21, 21, 112);
+    resize: none;
 }
 textarea:hover{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
