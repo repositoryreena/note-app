@@ -1,0 +1,43 @@
+body, html {
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(149, 223, 177);
+    font-family: sans-serif;
+}
+h1, p{
+    color: rgb(21, 21, 112);
+    text-align: center;
+}
+.box{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+flex: 0 0 calc(20% - 10px);;
+box-sizing: border-box;
+min-width: 0;
+height: 150px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 10%);
+color:gray;
+}
+.box:hover{
+    background-color: rgba(255, 255, 255, 25%);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.plus {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus:hover{
+    cursor: pointer;
+}
+textarea{
+    border: none;
+}
